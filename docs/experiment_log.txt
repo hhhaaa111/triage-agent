@@ -1,0 +1,18 @@
+﻿训练集 11314 条，测试集 7532 条，类别 20 个
+清洗完成 6.8s
+多数类基线 accuracy=0.053
+mnb             acc=0.6840 macroF1=0.6542 top3=0.8428 train=9.1s infer=0.70ms/doc
+python : C:\Users\DELL\AppData\Local\Doubao\User Data\sandbox_runtime\bases\fa694f517e5995233c80a9a8db5212c2\python\Lib
+\site-packages\sklearn\linear_model\_logistic.py:1435: FutureWarning: 'n_jobs' has no effect since 1.8 and will be remo
+ved in 1.10. You provided 'n_jobs=-1', please leave it unspecified.
+所在位置 行:1 字符: 234
++ ... e-agent\data\sklearn_data"; python scripts\experiment.py 2>&1 | Out-F ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\DELL\A...it unspecified.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(msg, category=FutureWarning)
+lr              acc=0.6988 macroF1=0.6865 top3=0.8573 train=63.0s infer=0.35ms/doc
+svc             acc=0.7007 macroF1=0.6888 top3=0.8416 train=7.8s infer=0.20ms/doc
+calibrated_svc  acc=0.7053 macroF1=0.6930 top3=0.8471 train=17.2s infer=0.25ms/doc
+已写入 D:\MLProjects\triage-agent\docs\experiment_models.json

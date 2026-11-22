@@ -1,0 +1,50 @@
+{
+  "majority": {
+    "label": "基线：多数类",
+    "accuracy": 0.053,
+    "macro_f1": 0.005,
+    "top3": null,
+    "train_seconds": 0.0,
+    "infer_ms_per_doc": 0.0
+  },
+  "mnb": {
+    "label": "朴素贝叶斯（MultinomialNB）",
+    "accuracy": 0.684,
+    "macro_f1": 0.6542,
+    "weighted_f1": 0.6713,
+    "top3": 0.8428,
+    "train_seconds": 9.13,
+    "infer_ms_per_doc": 0.698,
+    "has_proba": true
+  },
+  "lr": {
+    "label": "逻辑回归（LogisticRegression）",
+    "accuracy": 0.6988,
+    "macro_f1": 0.6865,
+    "weighted_f1": 0.6972,
+    "top3": 0.8573,
+    "train_seconds": 62.95,
+    "infer_ms_per_doc": 0.345,
+    "has_proba": true
+  },
+  "svc": {
+    "label": "线性 SVM（LinearSVC）",
+    "accuracy": 0.7007,
+    "macro_f1": 0.6888,
+    "weighted_f1": 0.6988,
+    "top3": 0.8416,
+    "train_seconds": 7.81,
+    "infer_ms_per_doc": 0.203,
+    "has_proba": false
+  },
+  "calibrated_svc": {
+    "label": "线性 SVM + Sigmoid 概率校准",
+    "accuracy": 0.7053,
+    "macro_f1": 0.693,
+    "weighted_f1": 0.7037,
+    "top3": 0.8471,
+    "train_seconds": 17.17,
+    "infer_ms_per_doc": 0.254,
+    "has_proba": true
+  }
+}

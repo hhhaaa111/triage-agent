@@ -1,0 +1,53 @@
+﻿
+[1] comp.os.ms-windows.misc | 频道 计算机与技术 | 置信度 0.76 | 自动分流 | 197.63 ms
+    理由：windows(+0.58)；dos(+0.19)；dos window(+0.10)
+
+[2] comp.sys.mac.hardware | 频道 计算机与技术 | 置信度 0.74 | 自动分流 | 11.34 ms
+    理由：mac(+0.54)；simms(+0.40)；simm(+0.13)
+
+[3] sci.med | 频道 科学与工程 | 置信度 0.84 | 自动分流 | 11.11 ms
+    理由：diet(+0.22)；fat(+0.22)；drug(+0.16)
+
+[4] sci.med | 频道 科学与工程 | 置信度 0.86 | 自动分流 | 17.53 ms
+    理由：syndrome(+0.38)；treatment(+0.31)；symptoms(+0.17)
+
+[5] rec.autos | 频道 娱乐与休闲 | 置信度 0.25 | 转人工 | 19.04 ms
+    理由：responded(+0.13)；speak(+0.11)；pretty(+0.04)
+    备注：置信度 0.25 低于阈值 0.55
+
+[6] talk.politics.guns | 频道 政治与社会 | 置信度 0.72 | 自动分流 | 16.97 ms
+    理由：gun(+0.79)；nra(+0.26)；criminals(+0.25)
+
+[7] soc.religion.christian | 频道 信仰与宗教 | 置信度 0.80 | 自动分流 | 16.18 ms
+    理由：marriage(+0.38)；resurrection(+0.34)；jesus(+0.26)
+
+[8] alt.atheism | 频道 信仰与宗教 | 置信度 0.20 | 转人工 | 17.10 ms
+    理由：possibilities(+0.07)；isn(+0.05)；necessarily(+0.05)
+    备注：置信度 0.20 低于阈值 0.55
+
+[9] rec.sport.hockey | 频道 娱乐与休闲 | 置信度 0.92 | 自动分流 | 20.18 ms
+    理由：hockey(+0.43)；espn(+0.35)；playoff(+0.24)
+
+[10] rec.motorcycles | 频道 娱乐与休闲 | 置信度 0.92 | 自动分流 | 16.99 ms
+    理由：bike(+1.05)；dog(+0.64)；motorcycle(+0.39)
+
+[11] comp.sys.mac.hardware | 频道 计算机与技术 | 置信度 0.49 | 转人工 | 17.82 ms
+    理由：apple(+0.76)；powerbook(+0.27)；macworld(+0.15)
+    备注：置信度 0.49 低于阈值 0.55
+
+[12] misc.forsale | 频道 交易与杂项 | 置信度 0.65 | 自动分流 | 18.32 ms
+    理由：sale(+0.21)；asking(+0.10)；fm(+0.09)
+
+[13] — | 频道 — | 置信度 0.00 | 转人工 | 0.01 ms
+    理由：—
+    备注：输入为空
+
+[14] comp.sys.ibm.pc.hardware | 频道 计算机与技术 | 置信度 0.38 | 转人工 | 16.66 ms
+    理由：help(+0.81)
+    备注：文本过短（4 字符），信息不足；置信度 0.38 低于阈值 0.55
+
+[15] rec.autos | 频道 娱乐与休闲 | 置信度 0.08 | 转人工 | 19.89 ms
+    理由：未命中该类的典型判别词
+    备注：未登录词比例 100%，疑似领域外文本；置信度 0.08 低于阈值 0.55
+
+已写入 D:\MLProjects\triage-agent\docs\decisions.csv（15 条）

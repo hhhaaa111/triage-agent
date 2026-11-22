@@ -1,0 +1,4 @@
+﻿[训练] 11314 条，20 类，模型=calibrated_svc
+[训练] 主模型完成
+[训练] 5 折交叉验证 宏F1 = 0.7572 ± 0.0137
+[训练] 已保存模型 D:\MLProjects\triage-agent\models\triage_model.joblib（词表 141609 维）

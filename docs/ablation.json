@@ -1,0 +1,57 @@
+{
+  "features": {
+    "完整配置（1–2 gram + 停用词 + sublinear）": {
+      "accuracy": 0.7007,
+      "macro_f1": 0.6888,
+      "vocab_size": 141609,
+      "train_seconds": 9.5
+    },
+    "仅一元词（1 gram）": {
+      "accuracy": 0.6907,
+      "macro_f1": 0.6791,
+      "vocab_size": 36026,
+      "train_seconds": 4.3
+    },
+    "不去停用词": {
+      "accuracy": 0.6973,
+      "macro_f1": 0.6833,
+      "vocab_size": 224210,
+      "train_seconds": 16.0
+    },
+    "min_df=1（更大词表）": {
+      "accuracy": 0.7108,
+      "macro_f1": 0.6958,
+      "vocab_size": 882591,
+      "train_seconds": 22.1
+    },
+    "关闭 sublinear_tf": {
+      "accuracy": 0.6957,
+      "macro_f1": 0.6845,
+      "vocab_size": 141609,
+      "train_seconds": 8.9
+    }
+  },
+  "decision": {
+    "仅阈值 0.55（关闭未登录词规则）": {
+      "auto_ratio": 0.6082,
+      "auto_accuracy": 0.8933,
+      "review_ratio": 0.3918,
+      "review_error_share": 0.7822,
+      "upper_accuracy": 0.9351
+    },
+    "阈值 0.55 + 未登录词 45%（过紧）": {
+      "auto_ratio": 0.1203,
+      "auto_accuracy": 0.9172,
+      "review_ratio": 0.8797,
+      "review_error_share": 0.9666,
+      "upper_accuracy": 0.99
+    },
+    "阈值 0.55 + 未登录词 70%（校准后）": {
+      "auto_ratio": 0.6057,
+      "auto_accuracy": 0.8937,
+      "review_ratio": 0.3943,
+      "review_error_share": 0.784,
+      "upper_accuracy": 0.9356
+    }
+  }
+}

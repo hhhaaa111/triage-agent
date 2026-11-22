@@ -1,0 +1,20 @@
+﻿python : test_empty_input_goes_to_review (test_agent.TestAgent.test_empty_input_goes_to_review) ... ok
+所在位置 行:1 字符: 75
++ ... NCODING="utf-8"; python -m unittest discover -s tests -v 2>&1 | Out-F ...
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_empty_inpu..._review) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_gibberish_triggers_domain_check (test_agent.TestAgent.test_gibberish_triggers_domain_check) ... ok
+test_long_input_is_truncated (test_agent.TestAgent.test_long_input_is_truncated) ... ok
+test_normal_input_is_labelled (test_agent.TestAgent.test_normal_input_is_labelled) ... ok
+test_short_input_forced_to_review (test_agent.TestAgent.test_short_input_forced_to_review) ... ok
+test_removes_email_url_and_quote (test_agent.TestCleaning.test_removes_email_url_and_quote) ... ok
+test_channel_mapping_covers_all_categories (test_agent.TestConfigAndIO.test_channel_mapping_covers_all_categories) ... 
+ok
+test_jsonl_reader_rejects_missing_text (test_agent.TestConfigAndIO.test_jsonl_reader_rejects_missing_text) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.183s
+
+OK

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/*.joblib
+models/keyword_table.json
+data/sklearn_data/
+data/*.csv
+out/
+docs/decisions.csv
+*.log
+
+data/*.pkz
+docs/_*.py
+docs/_*.txt

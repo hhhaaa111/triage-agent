@@ -1,0 +1,9 @@
+﻿完整配置（1–2 gram + 停用词 + sublinear）    acc=0.7007 macroF1=0.6888 vocab=141609
+仅一元词（1 gram）                        acc=0.6907 macroF1=0.6791 vocab=36026
+不去停用词                               acc=0.6973 macroF1=0.6833 vocab=224210
+min_df=1（更大词表）                      acc=0.7108 macroF1=0.6958 vocab=882591
+关闭 sublinear_tf                     acc=0.6957 macroF1=0.6845 vocab=141609
+仅阈值 0.55（关闭未登录词规则） {'auto_ratio': 0.6082, 'auto_accuracy': 0.8933, 'review_ratio': 0.3918, 'review_error_share': 0.7822, 'upper_accuracy': 0.9351}
+阈值 0.55 + 未登录词 45%（过紧） {'auto_ratio': 0.1203, 'auto_accuracy': 0.9172, 'review_ratio': 0.8797, 'review_error_share': 0.9666, 'upper_accuracy': 0.99}
+阈值 0.55 + 未登录词 70%（校准后） {'auto_ratio': 0.6057, 'auto_accuracy': 0.8937, 'review_ratio': 0.3943, 'review_error_share': 0.784, 'upper_accuracy': 0.9356}
+已写入 D:\MLProjects\triage-agent\docs\ablation.json
